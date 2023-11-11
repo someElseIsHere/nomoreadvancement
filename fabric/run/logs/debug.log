@@ -1,0 +1,291 @@
+[15:23:29] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.20.1 with Fabric Loader 0.14.24
+[15:23:29] [main/DEBUG] (FabricLoader/GamePatch) Found game constructor: net.minecraft.client.main.Main -> net.minecraft.client.Minecraft
+[15:23:29] [main/DEBUG] (FabricLoader/GamePatch) Patching game constructor <init>(Lnet/minecraft/client/main/GameConfig;)V
+[15:23:29] [main/DEBUG] (FabricLoader/GamePatch) Run directory field is thought to be net/minecraft/client/Minecraft/gameDirectory
+[15:23:29] [main/DEBUG] (FabricLoader/GamePatch) Applying brand name hook to net/minecraft/client/ClientBrandRetriever::getClientModName
+[15:23:29] [main/DEBUG] (FabricLoader/GamePatch) Applying brand name hook to net/minecraft/server/MinecraftServer::getServerModName
+[15:23:29] [main/DEBUG] (FabricLoader/Mappings) Loading mappings took 311 ms
+[15:23:29] [main/DEBUG] (FabricLoader/GamePatch) Patched 3 classs
+[15:23:29] [main/DEBUG] (FabricLoader/Discovery) Mod discovery time: 13.9 ms
+[15:23:29] [main/DEBUG] (FabricLoader/Resolution) Mod resolution time: 52.7 ms
+[15:23:29] [main/INFO] (FabricLoader) Loading 5 mods:
+	- fabricloader 0.14.24
+	- generated_7447a2a 1.0.0
+	- java 17
+	- minecraft 1.20.1
+	- nomoreadvancement 0.1
+[15:23:29] [main/DEBUG] (FabricLoader/Knot) Adding /home/theplaceholder/nomoreadvancement/fabric/build/resources/main to classpath.
+[15:23:29] [main/DEBUG] (FabricLoader/Knot) Adding /tmp/14467840564546523606.jar to classpath.
+[15:23:29] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/home/theplaceholder/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/8d31fb97c3e0cd7c8dad3441851c523bcfae6d8e/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[15:23:29] [main/DEBUG] (FabricLoader/Mixin) Error cleaning class output directory: .mixin.out
+[15:23:29] [main/DEBUG] (FabricLoader/Mixin) Initialising Mixin Platform Manager
+[15:23:29] [main/DEBUG] (FabricLoader/Mixin) Adding mixin platform agents for container ContainerHandleURI(file:///home/theplaceholder/.gradle/caches/modules-2/files-2.1/net.fabricmc/fabric-loader/0.14.24/e0531c8dcd0687a1c0ed9804d8031e2f83be3083/fabric-loader-0.14.24.jar)
+[15:23:29] [main/DEBUG] (FabricLoader/Mixin) Instancing new MixinPlatformAgentDefault for ContainerHandleURI(file:///home/theplaceholder/.gradle/caches/modules-2/files-2.1/net.fabricmc/fabric-loader/0.14.24/e0531c8dcd0687a1c0ed9804d8031e2f83be3083/fabric-loader-0.14.24.jar)
+[15:23:29] [main/DEBUG] (FabricLoader/Mixin) MixinPlatformAgentDefault accepted container ContainerHandleURI(file:///home/theplaceholder/.gradle/caches/modules-2/files-2.1/net.fabricmc/fabric-loader/0.14.24/e0531c8dcd0687a1c0ed9804d8031e2f83be3083/fabric-loader-0.14.24.jar)
+[15:23:29] [main/DEBUG] (FabricLoader/Mixin) Instancing new MixinPlatformAgentDefault for ContainerHandleURI(file:///home/theplaceholder/.gradle/caches/modules-2/files-2.1/net.fabricmc/fabric-loader/0.14.24/e0531c8dcd0687a1c0ed9804d8031e2f83be3083/fabric-loader-0.14.24.jar)
+[15:23:29] [main/DEBUG] (FabricLoader/Mixin) MixinPlatformAgentDefault accepted container ContainerHandleURI(file:///home/theplaceholder/.gradle/caches/modules-2/files-2.1/net.fabricmc/fabric-loader/0.14.24/e0531c8dcd0687a1c0ed9804d8031e2f83be3083/fabric-loader-0.14.24.jar)
+[15:23:29] [main/DEBUG] (FabricLoader/Mixin) Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleURI(file:///home/theplaceholder/.gradle/caches/modules-2/files-2.1/net.fabricmc/fabric-loader/0.14.24/e0531c8dcd0687a1c0ed9804d8031e2f83be3083/fabric-loader-0.14.24.jar)]
+[15:23:29] [main/DEBUG] (FabricLoader/Mixin) Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleURI(file:///home/theplaceholder/.gradle/caches/modules-2/files-2.1/net.fabricmc/fabric-loader/0.14.24/e0531c8dcd0687a1c0ed9804d8031e2f83be3083/fabric-loader-0.14.24.jar)]
+[15:23:29] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[15:23:29] [main/DEBUG] (FabricLoader/Mixin) Compatibility level JAVA_17 specified by nomoreadvancement.mixins.json is higher than the maximum level supported by this version of mixin (JAVA_13).
+[15:23:29] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[15:23:29] [main/DEBUG] (FabricLoader/Knot) Adding /home/theplaceholder/.gradle/caches/fabric-loom/minecraftMaven/net/minecraft/minecraft-merged/1.20.1-loom.mappings.1_20_1.layered+hash.40359-v2/minecraft-merged-1.20.1-loom.mappings.1_20_1.layered+hash.40359-v2.jar to classpath.
+[15:23:29] [main/DEBUG] (FabricLoader/Knot) Adding /home/theplaceholder/nomoreadvancement/fabric/build/resources/main to classpath.
+[15:23:29] [main/DEBUG] (FabricLoader/Knot) Adding /home/theplaceholder/.gradle/caches/fabric-loom/1.20.1/loom.mappings.1_20_1.layered+hash.40359-v2/mappings.jar to classpath.
+[15:23:29] [main/DEBUG] (FabricLoader/Knot) Adding /home/theplaceholder/.gradle/caches/modules-2/files-2.1/dev.architectury/architectury-transformer/5.2.75/8590abe9bc536d62e3c3999c5e5e5380e7acc518/architectury-transformer-5.2.75-agent.jar to classpath.
+[15:23:29] [main/DEBUG] (FabricLoader/Knot) Adding /home/theplaceholder/.gradle/caches/modules-2/files-2.1/dev.architectury/architectury-transformer/5.2.75/c7a81fb7a7582528f3d370d064f8004773d22c86/architectury-transformer-5.2.75-runtime.jar to classpath.
+[15:23:29] [main/DEBUG] (FabricLoader/Knot) Adding /home/theplaceholder/nomoreadvancement/common/build/devlibs/nomoreadvancement-0.1-dev.jar to classpath.
+[15:23:29] [main/DEBUG] (FabricLoader/Knot) Adding /home/theplaceholder/.gradle/caches/modules-2/files-2.1/net.fabricmc/dev-launch-injector/0.2.1+build.8/da8bef7e6e2f952da707f282bdb46882a0fce5e3/dev-launch-injector-0.2.1+build.8.jar to classpath.
+[15:23:29] [main/DEBUG] (FabricLoader/Knot) Adding /home/theplaceholder/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.2.2/54f5efc19bca95d709d9a37d19ffcbba3d21c1a6/oshi-core-6.2.2.jar to classpath.
+[15:23:29] [main/DEBUG] (FabricLoader/Knot) Adding /home/theplaceholder/.gradle/caches/modules-2/files-2.1/com.google.guava/failureaccess/1.0.1/1dcf1de382a0bf95a3d8b0849546c88bac1292c9/failureaccess-1.0.1.jar to classpath.
+[15:23:29] [main/DEBUG] (FabricLoader/Knot) Adding /home/theplaceholder/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/31.1-jre/60458f877d055d0c9114d9e1a2efb737b4bc282c/guava-31.1-jre.jar to classpath.
+[15:23:29] [main/DEBUG] (FabricLoader/Knot) Adding /home/theplaceholder/.gradle/caches/modules-2/files-2.1/com.ibm.icu/icu4j/71.1/9e7d3304c23f9ba5cb71915f7cce23231a57a445/icu4j-71.1.jar to classpath.
+[15:23:29] [main/DEBUG] (FabricLoader/Knot) Adding /home/theplaceholder/.gradle/caches/modules-2/files-2.1/com.mojang/blocklist/1.0.10/5c685c5ffa94c4cd39496c7184c1d122e515ecef/blocklist-1.0.10.jar to classpath.
+[15:23:29] [main/DEBUG] (FabricLoader/Knot) Adding /home/theplaceholder/.gradle/caches/modules-2/files-2.1/com.mojang/brigadier/1.1.8/5244ce82c3337bba4a196a3ce858bfaecc74404a/brigadier-1.1.8.jar to classpath.
+[15:23:29] [main/DEBUG] (FabricLoader/Knot) Adding /home/theplaceholder/.gradle/caches/modules-2/files-2.1/com.mojang/datafixerupper/6.0.8/3ba4a30557a9b057760af4011f909ba619fc5125/datafixerupper-6.0.8.jar to classpath.
+[15:23:29] [main/DEBUG] (FabricLoader/Knot) Adding /home/theplaceholder/.gradle/caches/modules-2/files-2.1/com.mojang/patchy/2.2.10/da05971b07cbb379d002cf7eaec6a2048211fefc/patchy-2.2.10.jar to classpath.
+[15:23:29] [main/DEBUG] (FabricLoader/Knot) Adding /home/theplaceholder/.gradle/caches/modules-2/files-2.1/com.mojang/text2speech/1.17.9/3cad216e3a7f0c19b4b394388bc9ffc446f13b14/text2speech-1.17.9.jar to classpath.
+[15:23:29] [main/DEBUG] (FabricLoader/Knot) Adding /home/theplaceholder/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.15/49d94806b6e3dc933dacbd8acb0fdbab8ebd1e5d/commons-codec-1.15.jar to classpath.
+[15:23:29] [main/DEBUG] (FabricLoader/Knot) Adding /home/theplaceholder/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.11.0/a2503f302b11ebde7ebc3df41daebe0e4eea3689/commons-io-2.11.0.jar to classpath.
+[15:23:29] [main/DEBUG] (FabricLoader/Knot) Adding /home/theplaceholder/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar to classpath.
+[15:23:29] [main/DEBUG] (FabricLoader/Knot) Adding /home/theplaceholder/.gradle/caches/modules-2/files-2.1/io.netty/netty-buffer/4.1.82.Final/a544270cf1ae8b8077082f5036436a9a9971ea71/netty-buffer-4.1.82.Final.jar to classpath.
+[15:23:29] [main/DEBUG] (FabricLoader/Knot) Adding /home/theplaceholder/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec/4.1.82.Final/b77200379acb345a9ffdece1c605e591ac3e4e0a/netty-codec-4.1.82.Final.jar to classpath.
+[15:23:29] [main/DEBUG] (FabricLoader/Knot) Adding /home/theplaceholder/.gradle/caches/modules-2/files-2.1/io.netty/netty-common/4.1.82.Final/22d148e85c3f5ebdacc0ce1f5aabb1d420f73f3/netty-common-4.1.82.Final.jar to classpath.
+[15:23:29] [main/DEBUG] (FabricLoader/Knot) Adding /home/theplaceholder/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler/4.1.82.Final/644041d1fa96a5d3130a29e8978630d716d76e38/netty-handler-4.1.82.Final.jar to classpath.
+[15:23:29] [main/DEBUG] (FabricLoader/Knot) Adding /home/theplaceholder/.gradle/caches/modules-2/files-2.1/io.netty/netty-resolver/4.1.82.Final/38f665ae8dcd29032eea31245ba7806bed2e0fa8/netty-resolver-4.1.82.Final.jar to classpath.
+[15:23:29] [main/DEBUG] (FabricLoader/Knot) Adding /home/theplaceholder/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-classes-epoll/4.1.82.Final/e7c7dd18deac93105797f30057c912651ea76521/netty-transport-classes-epoll-4.1.82.Final.jar to classpath.
+[15:23:29] [main/DEBUG] (FabricLoader/Knot) Adding /home/theplaceholder/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-epoll/4.1.82.Final/476409d6255001ca53a55f65b01c13822f8dc93a/netty-transport-native-epoll-4.1.82.Final-linux-aarch_64.jar to classpath.
+[15:23:29] [main/DEBUG] (FabricLoader/Knot) Adding /home/theplaceholder/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-epoll/4.1.82.Final/c7350a71920f3ae9142945e25fed4846cce53374/netty-transport-native-epoll-4.1.82.Final-linux-x86_64.jar to classpath.
+[15:23:29] [main/DEBUG] (FabricLoader/Knot) Adding /home/theplaceholder/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-unix-common/4.1.82.Final/3e895b35ca1b8a0eca56cacff4c2dde5d2c6abce/netty-transport-native-unix-common-4.1.82.Final.jar to classpath.
+[15:23:29] [main/DEBUG] (FabricLoader/Knot) Adding /home/theplaceholder/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport/4.1.82.Final/e431a218d91acb6476ccad5f5aafde50aa3945ca/netty-transport-4.1.82.Final.jar to classpath.
+[15:23:29] [main/DEBUG] (FabricLoader/Knot) Adding /home/theplaceholder/.gradle/caches/modules-2/files-2.1/it.unimi.dsi/fastutil/8.5.9/bb7ea75ecdb216654237830b3a96d87ad91f8cc5/fastutil-8.5.9.jar to classpath.
+[15:23:29] [main/DEBUG] (FabricLoader/Knot) Adding /home/theplaceholder/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna-platform/5.12.1/97406a297c852f4a41e688a176ec675f72e8329/jna-platform-5.12.1.jar to classpath.
+[15:23:29] [main/DEBUG] (FabricLoader/Knot) Adding /home/theplaceholder/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/5.12.1/b1e93a735caea94f503e95e6fe79bf9cdc1e985d/jna-5.12.1.jar to classpath.
+[15:23:29] [main/DEBUG] (FabricLoader/Knot) Adding /home/theplaceholder/.gradle/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/5.0.4/4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c/jopt-simple-5.0.4.jar to classpath.
+[15:23:29] [main/DEBUG] (FabricLoader/Knot) Adding /home/theplaceholder/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.21/4ec95b60d4e86b5c95a0e919cb172a0af98011ef/commons-compress-1.21.jar to classpath.
+[15:23:29] [main/DEBUG] (FabricLoader/Knot) Adding /home/theplaceholder/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.12.0/c6842c86792ff03b9f1d1fe2aab8dc23aa6c6f0e/commons-lang3-3.12.0.jar to classpath.
+[15:23:29] [main/DEBUG] (FabricLoader/Knot) Adding /home/theplaceholder/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.13/e5f6cae5ca7ecaac1ec2827a9e2d65ae2869cada/httpclient-4.5.13.jar to classpath.
+[15:23:29] [main/DEBUG] (FabricLoader/Knot) Adding /home/theplaceholder/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.15/7f2e0c573eaa7a74bac2e89b359e1f73d92a0a1d/httpcore-4.4.15.jar to classpath.
+[15:23:29] [main/DEBUG] (FabricLoader/Knot) Adding /home/theplaceholder/.gradle/caches/modules-2/files-2.1/org.joml/joml/1.10.5/22566d58af70ad3d72308bab63b8339906deb649/joml-1.10.5.jar to classpath.
+[15:23:29] [main/DEBUG] (FabricLoader/Knot) Adding /home/theplaceholder/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-glfw/3.3.1/cbac1b8d30cb4795149c1ef540f912671a8616d0/lwjgl-glfw-3.3.1.jar to classpath.
+[15:23:29] [main/DEBUG] (FabricLoader/Knot) Adding /home/theplaceholder/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-glfw/3.3.1/81716978214ecbda15050ca394b06ef61501a49e/lwjgl-glfw-3.3.1-natives-linux.jar to classpath.
+[15:23:29] [main/DEBUG] (FabricLoader/Knot) Adding /home/theplaceholder/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-jemalloc/3.3.1/a817bcf213db49f710603677457567c37d53e103/lwjgl-jemalloc-3.3.1.jar to classpath.
+[15:23:29] [main/DEBUG] (FabricLoader/Knot) Adding /home/theplaceholder/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-jemalloc/3.3.1/33dbb017b6ed6b25f993ad9d56741a49e7937718/lwjgl-jemalloc-3.3.1-natives-linux.jar to classpath.
+[15:23:29] [main/DEBUG] (FabricLoader/Knot) Adding /home/theplaceholder/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-openal/3.3.1/2623a6b8ae1dfcd880738656a9f0243d2e6840bd/lwjgl-openal-3.3.1.jar to classpath.
+[15:23:29] [main/DEBUG] (FabricLoader/Knot) Adding /home/theplaceholder/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-openal/3.3.1/f906b6439f6daa66001182ea7727e3467a93681b/lwjgl-openal-3.3.1-natives-linux.jar to classpath.
+[15:23:29] [main/DEBUG] (FabricLoader/Knot) Adding /home/theplaceholder/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.3.1/831a5533a21a5f4f81bbc51bb13e9899319b5411/lwjgl-opengl-3.3.1.jar to classpath.
+[15:23:29] [main/DEBUG] (FabricLoader/Knot) Adding /home/theplaceholder/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.3.1/ab9ab6fde3743e3550fa5d46d785ecb45b047d99/lwjgl-opengl-3.3.1-natives-linux.jar to classpath.
+[15:23:29] [main/DEBUG] (FabricLoader/Knot) Adding /home/theplaceholder/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-stb/3.3.1/b119297cf8ed01f247abe8685857f8e7fcf5980f/lwjgl-stb-3.3.1.jar to classpath.
+[15:23:29] [main/DEBUG] (FabricLoader/Knot) Adding /home/theplaceholder/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-stb/3.3.1/3ee7aec8686e52867677110415566a5342a80230/lwjgl-stb-3.3.1-natives-linux.jar to classpath.
+[15:23:29] [main/DEBUG] (FabricLoader/Knot) Adding /home/theplaceholder/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-tinyfd/3.3.1/ff1914111ef2e3e0110ef2dabc8d8cdaad82347/lwjgl-tinyfd-3.3.1.jar to classpath.
+[15:23:29] [main/DEBUG] (FabricLoader/Knot) Adding /home/theplaceholder/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-tinyfd/3.3.1/a35110b9471bea8cde826ab297550ee8c22f5035/lwjgl-tinyfd-3.3.1-natives-linux.jar to classpath.
+[15:23:29] [main/DEBUG] (FabricLoader/Knot) Adding /home/theplaceholder/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.3.1/ae58664f88e18a9bb2c77b063833ca7aaec484cb/lwjgl-3.3.1.jar to classpath.
+[15:23:29] [main/DEBUG] (FabricLoader/Knot) Adding /home/theplaceholder/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.3.1/1de885aba434f934201b99f2f1afb142036ac189/lwjgl-3.3.1-natives-linux.jar to classpath.
+[15:23:29] [main/DEBUG] (FabricLoader/Knot) Adding /home/theplaceholder/.gradle/caches/modules-2/files-2.1/org.jline/jline-reader/3.12.1/4382ab1382c7b6f379377ed5f665dc2f6e1218bc/jline-reader-3.12.1.jar to classpath.
+[15:23:29] [main/DEBUG] (FabricLoader/Knot) Adding /home/theplaceholder/.gradle/caches/modules-2/files-2.1/org.jline/jline-terminal/3.12.1/c777448314e050d980a6b697c140f3bfe9eb7416/jline-terminal-3.12.1.jar to classpath.
+[15:23:29] [main/DEBUG] (FabricLoader/Knot) Adding /tmp/14467840564546523606.jar to classpath.
+[15:23:29] [main/DEBUG] (FabricLoader/Entrypoint) No subscribers for entrypoint 'preLaunch'
+[15:23:29] [main/DEBUG] (FabricLoader/Mixin) Preparing mixins for MixinEnvironment[DEFAULT]
+[15:23:29] [main/DEBUG] (FabricLoader/Mixin) Selecting config nomoreadvancement.mixins.json
+[15:23:29] [main/DEBUG] (FabricLoader/Mixin) Preparing nomoreadvancement.mixins.json (1)
+[15:23:30] [main/DEBUG] (FabricLoader/Mixin) Registering new injector for @Inject with org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo
+[15:23:30] [main/DEBUG] (FabricLoader/Mixin) Registering new injector for @ModifyArg with org.spongepowered.asm.mixin.injection.struct.ModifyArgInjectionInfo
+[15:23:30] [main/DEBUG] (FabricLoader/Mixin) Registering new injector for @ModifyArgs with org.spongepowered.asm.mixin.injection.struct.ModifyArgsInjectionInfo
+[15:23:30] [main/DEBUG] (FabricLoader/Mixin) Registering new injector for @Redirect with org.spongepowered.asm.mixin.injection.struct.RedirectInjectionInfo
+[15:23:30] [main/DEBUG] (FabricLoader/Mixin) Registering new injector for @ModifyVariable with org.spongepowered.asm.mixin.injection.struct.ModifyVariableInjectionInfo
+[15:23:30] [main/DEBUG] (FabricLoader/Mixin) Registering new injector for @ModifyConstant with org.spongepowered.asm.mixin.injection.struct.ModifyConstantInjectionInfo
+[15:23:30] [main/DEBUG] (io.netty.util.internal.logging.InternalLoggerFactory) Using SLF4J as the default logging framework
+[15:23:30] [main/DEBUG] (io.netty.util.ResourceLeakDetector) -Dio.netty.leakDetection.level: simple
+[15:23:30] [main/DEBUG] (io.netty.util.ResourceLeakDetector) -Dio.netty.leakDetection.targetRecords: 4
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /proc/self/auxv
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /proc/self/auxv
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /proc/stat
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu0/topology/core_id
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu0/topology/core_id
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu0/topology/physical_package_id
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu0/topology/physical_package_id
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu0/cpu_capacity
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu1/topology/core_id
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu1/topology/core_id
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu1/topology/physical_package_id
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu1/topology/physical_package_id
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu1/cpu_capacity
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu10/topology/core_id
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu10/topology/core_id
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu10/topology/physical_package_id
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu10/topology/physical_package_id
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu10/cpu_capacity
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu11/topology/core_id
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu11/topology/core_id
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu11/topology/physical_package_id
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu11/topology/physical_package_id
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu11/cpu_capacity
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu2/topology/core_id
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu2/topology/core_id
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu2/topology/physical_package_id
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu2/topology/physical_package_id
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu2/cpu_capacity
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu3/topology/core_id
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu3/topology/core_id
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu3/topology/physical_package_id
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu3/topology/physical_package_id
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu3/cpu_capacity
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu4/topology/core_id
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu4/topology/core_id
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu4/topology/physical_package_id
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu4/topology/physical_package_id
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu4/cpu_capacity
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu5/topology/core_id
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu5/topology/core_id
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu5/topology/physical_package_id
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu5/topology/physical_package_id
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu5/cpu_capacity
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu6/topology/core_id
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu6/topology/core_id
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu6/topology/physical_package_id
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu6/topology/physical_package_id
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu6/cpu_capacity
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu7/topology/core_id
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu7/topology/core_id
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu7/topology/physical_package_id
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu7/topology/physical_package_id
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu7/cpu_capacity
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu8/topology/core_id
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu8/topology/core_id
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu8/topology/physical_package_id
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu8/topology/physical_package_id
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu8/cpu_capacity
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu9/topology/core_id
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu9/topology/core_id
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu9/topology/physical_package_id
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu9/topology/physical_package_id
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu9/cpu_capacity
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /proc/cpuinfo
+[15:23:30] [main/DEBUG] (oshi.util.FileUtil) Reading file /proc/self/auxv
+[15:23:31] [main/DEBUG] (oshi.util.FileUtil) Reading file /proc/meminfo
+[15:23:31] [main/DEBUG] (oshi.util.FileUtil) Reading file /proc/meminfo
+[15:23:36] [Datafixer Bootstrap/INFO] (com.mojang.datafixers.DataFixerBuilder) 188 Datafixer optimizations took 189 milliseconds
+[15:23:38] [Render thread/INFO] (com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[15:23:39] [Yggdrasil Key Fetcher/DEBUG] (com.mojang.authlib.HttpAuthenticationService) Opening connection to https://api.minecraftservices.com/publickeys
+[15:23:39] [Render thread/DEBUG] (com.mojang.authlib.minecraft.client.MinecraftClient) Connecting to https://api.minecraftservices.com/player/attributes
+[15:23:39] [Yggdrasil Key Fetcher/DEBUG] (com.mojang.authlib.HttpAuthenticationService) Reading data from https://api.minecraftservices.com/publickeys
+[15:23:39] [Yggdrasil Key Fetcher/DEBUG] (com.mojang.authlib.HttpAuthenticationService) Successful read, server response was 200
+[15:23:39] [Yggdrasil Key Fetcher/DEBUG] (com.mojang.authlib.HttpAuthenticationService) Response: {
+  "profilePropertyKeys" : [ {
+    "publicKey" : "MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAylB4B6m5lz7jwrcFz6Fd/fnfUhcvlxsTSn5kIK/2aGG1C3kMy4VjhwlxF6BFUSnfxhNswPjh3ZitkBxEAFY25uzkJFRwHwVA9mdwjashXILtR6OqdLXXFVyUPIURLOSWqGNBtb08EN5fMnG8iFLgEJIBMxs9BvF3s3/FhuHyPKiVTZmXY0WY4ZyYqvoKR+XjaTRPPvBsDa4WI2u1zxXMeHlodT3lnCzVvyOYBLXL6CJgByuOxccJ8hnXfF9yY4F0aeL080Jz/3+EBNG8RO4ByhtBf4Ny8NQ6stWsjfeUIvH7bU/4zCYcYOq4WrInXHqS8qruDmIl7P5XXGcabuzQstPf/h2CRAUpP/PlHXcMlvewjmGU6MfDK+lifScNYwjPxRo4nKTGFZf/0aqHCh/EAsQyLKrOIYRE0lDG3bzBh8ogIMLAugsAfBb6M3mqCqKaTMAf/VAjh5FFJnjS+7bE+bZEV0qwax1CEoPPJL1fIQjOS8zj086gjpGRCtSy9+bTPTfTR/SJ+VUB5G2IeCItkNHpJX2ygojFZ9n5Fnj7R9ZnOM+L8nyIjPu3aePvtcrXlyLhH/hvOfIOjPxOlqW+O5QwSFP4OEcyLAUgDdUgyW36Z5mB285uKW/ighzZsOTevVUG2QwDItObIV6i8RCxFbN2oDHyPaO5j1tTaBNyVt8CAwEAAQ=="
+  }, {
+    "publicKey" : "MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAra4Y2wu3rWEW7cDTDRRd4IvUD140Y12SaG3k4V3UwT/pDnnX5itOcYiZA0qf4VCpJDp2PifOL+Pr/ph/G9/6ZoIxkBeGENo+S7i9BqizJy9cmZocpyx+RkZaw9+frCGNLuYLrxziNWiXFACJSg2mHACR7+6NkGN8d/16/3PxMnvGSyLT7JKGUgqj1Q3oW7k+NLXR9sw6oRELOcnUvZVa2bcglv8vlcyPqqnBhydLfHI85Z5WnIYZviZ3Bb4dv5Fme726BGOtEY7kz40RfiwjT3xYKYKPJUS3/crPX6eugmWyrWdddKaePrW88bp17Z5NIStlJ5KJJk4coha8O+P7onDqmbHwLqPTeR51njkgZ+DJWT6fz8ku9OWQn6I/FxqN14iYIghDJijmKvEwsI7FJ5X2ttPXEvBYLmpj2j0lQQcUIqH7hkiZ+mCW0GYawJgbAeNAraM9sP+76MyAGITtAsXv1IQmah+7OeDJOToG2Kb1Dl0Va+HiP9MPpcnO7kbn6dqAyhNvRNmHnsUOiEcLhW9Rk7xz87IBV/cGKbUDgxu8cYY0P512DWt5+Jmr8W10FDFdLmkJt1taWxNxApM2CiFPCimk02koyLZDW9nqpWNw6qS/TOYPdz438qEuamtYUJ+u6WhBjK8xAJEAt5k3gDKX+nlTiG3N6se09D62fS8CAwEAAQ=="
+  } ],
+  "playerCertificateKeys" : [ {
+    "publicKey" : "MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAylB4B6m5lz7jwrcFz6Fd/fnfUhcvlxsTSn5kIK/2aGG1C3kMy4VjhwlxF6BFUSnfxhNswPjh3ZitkBxEAFY25uzkJFRwHwVA9mdwjashXILtR6OqdLXXFVyUPIURLOSWqGNBtb08EN5fMnG8iFLgEJIBMxs9BvF3s3/FhuHyPKiVTZmXY0WY4ZyYqvoKR+XjaTRPPvBsDa4WI2u1zxXMeHlodT3lnCzVvyOYBLXL6CJgByuOxccJ8hnXfF9yY4F0aeL080Jz/3+EBNG8RO4ByhtBf4Ny8NQ6stWsjfeUIvH7bU/4zCYcYOq4WrInXHqS8qruDmIl7P5XXGcabuzQstPf/h2CRAUpP/PlHXcMlvewjmGU6MfDK+lifScNYwjPxRo4nKTGFZf/0aqHCh/EAsQyLKrOIYRE0lDG3bzBh8ogIMLAugsAfBb6M3mqCqKaTMAf/VAjh5FFJnjS+7bE+bZEV0qwax1CEoPPJL1fIQjOS8zj086gjpGRCtSy9+bTPTfTR/SJ+VUB5G2IeCItkNHpJX2ygojFZ9n5Fnj7R9ZnOM+L8nyIjPu3aePvtcrXlyLhH/hvOfIOjPxOlqW+O5QwSFP4OEcyLAUgDdUgyW36Z5mB285uKW/ighzZsOTevVUG2QwDItObIV6i8RCxFbN2oDHyPaO5j1tTaBNyVt8CAwEAAQ=="
+  }, {
+    "publicKey" : "MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAt4t9NPuu7cktclnaH7eZj0omkLcJHeLz5MKsyJEntHZ0INtuBjSSul3Pp3pBeJN8k3ADdcdBLUN90bcAi7WsQqTx3Ft363q3W7TbM8j2iTEdp/0uVspoRt/DP1tkaWFs/w2WwUv9jbVoBUzfUc4pSTIxRwdjmqjZQfvjwKNDbOx3IhP2H0WXodbISejPi1wBZqNW4m1rnZAXp/EpUguxA8mobCa4vUCBkyFDyXdl69/wUSJHyCPmgcMJ364OlAhIqtwVPShBZObvrK/f0BYk6ShJD3N7TFDatSYsIIdcTKRknaIm91s+EsMrdB9U4Yw+ZJ/pyCB4S3vk8zfDCnb0DWIxYH3/EMzaxl77djmTmMzi/JDITup5z3jfWtRZmrAhU2/+W5IO5hEpo3/bCS9PXIY5xb41Lmp2ZO8dXKtyD66Chchy0W129n8vPl2GIruOdrxsjZAHnneyAb9jm0uaGaphwnEnuecX/qgHY6ZMtayvLLsPst8PO6R1vufMy8WqjK+j7LnC1krL7CPDg0NEhyQTmw5l+NCNjSlvB1juM9V4PARg0bYCOkGXm7ydRCjSSH8CJXZpwnd5cBB5WKAX3KPzutRgMi/LFwNSMZzFuUyXaYOZPpD259yqph1LmGqegEdDriACVU+dVEONFMm8eIuBofe7ljmsAFKW9BINwK0CAwEAAQ=="
+  } ]
+}
+[15:23:39] [Render thread/ERROR] (net.minecraft.client.Minecraft) Failed to verify authentication
+com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
+	at com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:56) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:156) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.<init>(YggdrasilUserApiService.java:55) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.createUserApiService(YggdrasilAuthenticationService.java:124) ~[authlib-4.0.43.jar:?]
+	at net.minecraft.client.Minecraft.createUserApiService(Minecraft.java:733) ~[minecraft-merged-1.20.1-loom.mappings.1_20_1.layered+hash.40359-v2.jar:?]
+	at net.minecraft.client.Minecraft.<init>(Minecraft.java:442) ~[minecraft-merged-1.20.1-loom.mappings.1_20_1.layered+hash.40359-v2.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:211) ~[minecraft-merged-1.20.1-loom.mappings.1_20_1.layered+hash.40359-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.14.24.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.24.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.24.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+	at dev.architectury.transformer.TransformerRuntime.main(TransformerRuntime.java:219) ~[architectury-transformer-5.2.75-runtime.jar:?]
+Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 401
+	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:85) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:48) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:129) ~[authlib-4.0.43.jar:?]
+	... 10 more
+[15:23:39] [Render thread/INFO] (net.minecraft.client.Minecraft) Setting user: Player406
+[15:23:39] [Render thread/DEBUG] (FabricLoader/Entrypoint) No subscribers for entrypoint 'main'
+[15:23:39] [Render thread/DEBUG] (FabricLoader/Entrypoint) No subscribers for entrypoint 'client'
+[15:23:39] [Render thread/INFO] (net.minecraft.client.Minecraft) Backend library: LWJGL version 3.3.1 SNAPSHOT
+[15:23:40] [Render thread/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu0/topology/core_id
+[15:23:40] [Render thread/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu0/topology/core_id
+[15:23:40] [Render thread/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu0/topology/physical_package_id
+[15:23:40] [Render thread/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu0/topology/physical_package_id
+[15:23:40] [Render thread/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu0/cpu_capacity
+[15:23:40] [Render thread/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu1/topology/core_id
+[15:23:40] [Render thread/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu1/topology/core_id
+[15:23:40] [Render thread/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu1/topology/physical_package_id
+[15:23:40] [Render thread/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu1/topology/physical_package_id
+[15:23:40] [Render thread/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu1/cpu_capacity
+[15:23:40] [Render thread/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu10/topology/core_id
+[15:23:40] [Render thread/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu10/topology/core_id
+[15:23:40] [Render thread/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu10/topology/physical_package_id
+[15:23:40] [Render thread/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu10/topology/physical_package_id
+[15:23:40] [Render thread/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu10/cpu_capacity
+[15:23:40] [Render thread/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu11/topology/core_id
+[15:23:40] [Render thread/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu11/topology/core_id
+[15:23:40] [Render thread/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu11/topology/physical_package_id
+[15:23:40] [Render thread/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu11/topology/physical_package_id
+[15:23:40] [Render thread/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu11/cpu_capacity
+[15:23:40] [Render thread/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu2/topology/core_id
+[15:23:40] [Render thread/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu2/topology/core_id
+[15:23:40] [Render thread/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu2/topology/physical_package_id
+[15:23:40] [Render thread/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu2/topology/physical_package_id
+[15:23:40] [Render thread/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu2/cpu_capacity
+[15:23:40] [Render thread/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu3/topology/core_id
+[15:23:40] [Render thread/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu3/topology/core_id
+[15:23:40] [Render thread/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu3/topology/physical_package_id
+[15:23:40] [Render thread/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu3/topology/physical_package_id
+[15:23:40] [Render thread/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu3/cpu_capacity
+[15:23:40] [Render thread/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu4/topology/core_id
+[15:23:40] [Render thread/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu4/topology/core_id
+[15:23:40] [Render thread/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu4/topology/physical_package_id
+[15:23:40] [Render thread/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu4/topology/physical_package_id
+[15:23:40] [Render thread/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu4/cpu_capacity
+[15:23:40] [Render thread/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu5/topology/core_id
+[15:23:40] [Render thread/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu5/topology/core_id
+[15:23:40] [Render thread/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu5/topology/physical_package_id
+[15:23:40] [Render thread/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu5/topology/physical_package_id
+[15:23:40] [Render thread/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu5/cpu_capacity
+[15:23:40] [Render thread/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu6/topology/core_id
+[15:23:40] [Render thread/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu6/topology/core_id
+[15:23:40] [Render thread/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu6/topology/physical_package_id
+[15:23:40] [Render thread/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu6/topology/physical_package_id
+[15:23:40] [Render thread/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu6/cpu_capacity
+[15:23:40] [Render thread/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu7/topology/core_id
+[15:23:40] [Render thread/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu7/topology/core_id
+[15:23:40] [Render thread/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu7/topology/physical_package_id
+[15:23:40] [Render thread/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu7/topology/physical_package_id
+[15:23:40] [Render thread/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu7/cpu_capacity
+[15:23:40] [Render thread/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu8/topology/core_id
+[15:23:40] [Render thread/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu8/topology/core_id
+[15:23:40] [Render thread/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu8/topology/physical_package_id
+[15:23:40] [Render thread/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu8/topology/physical_package_id
+[15:23:40] [Render thread/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu8/cpu_capacity
+[15:23:40] [Render thread/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu9/topology/core_id
+[15:23:40] [Render thread/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu9/topology/core_id
+[15:23:40] [Render thread/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu9/topology/physical_package_id
+[15:23:40] [Render thread/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu9/topology/physical_package_id
+[15:23:40] [Render thread/DEBUG] (oshi.util.FileUtil) Reading file /sys/devices/system/cpu/cpu9/cpu_capacity
+[15:23:40] [Render thread/DEBUG] (oshi.util.FileUtil) Reading file /proc/cpuinfo
+[15:23:40] [Render thread/DEBUG] (oshi.util.FileUtil) Reading file /proc/self/auxv
+[15:23:40] [Render thread/DEBUG] (com.mojang.blaze3d.systems.RenderSystem) Growing IndexBuffer: Old limit 0, new limit 9360.
+[15:23:40] [Render thread/DEBUG] (com.mojang.blaze3d.systems.RenderSystem) Growing IndexBuffer: Old limit 0, new limit 20.
+[15:23:40] [Render thread/INFO] (net.minecraft.server.packs.resources.ReloadableResourceManager) Reloading ResourceManager: vanilla
+[15:23:41] [Worker-Main-5/INFO] (net.minecraft.client.gui.font.providers.UnihexProvider) Found unifont_all_no_pua-15.0.06.hex, loading
+[15:23:43] [Render thread/WARN] (net.minecraft.client.sounds.SoundEngine) Missing sound for event: minecraft:item.goat_horn.play
+[15:23:43] [Render thread/WARN] (net.minecraft.client.sounds.SoundEngine) Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[15:23:44] [Render thread/INFO] (com.mojang.blaze3d.audio.Library) OpenAL initialized on device OMEN Mindframe Prime Analog Stereo
+[15:23:44] [Render thread/INFO] (net.minecraft.client.sounds.SoundEngine) Sound engine started
+[15:23:44] [Render thread/INFO] (net.minecraft.client.renderer.texture.TextureAtlas) Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[15:23:44] [Render thread/INFO] (net.minecraft.client.renderer.texture.TextureAtlas) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[15:23:44] [Render thread/INFO] (net.minecraft.client.renderer.texture.TextureAtlas) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[15:23:44] [Render thread/INFO] (net.minecraft.client.renderer.texture.TextureAtlas) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[15:23:44] [Render thread/INFO] (net.minecraft.client.renderer.texture.TextureAtlas) Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[15:23:44] [Render thread/INFO] (net.minecraft.client.renderer.texture.TextureAtlas) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[15:23:44] [Render thread/INFO] (net.minecraft.client.renderer.texture.TextureAtlas) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[15:23:44] [Render thread/INFO] (net.minecraft.client.renderer.texture.TextureAtlas) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[15:23:44] [Render thread/INFO] (net.minecraft.client.renderer.texture.TextureAtlas) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[15:23:44] [Render thread/WARN] (net.minecraft.client.renderer.ShaderInstance) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[15:23:44] [Render thread/INFO] (net.minecraft.client.renderer.texture.TextureAtlas) Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[15:23:44] [Render thread/INFO] (net.minecraft.client.renderer.texture.TextureAtlas) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[15:23:44] [Render thread/INFO] (net.minecraft.client.renderer.texture.TextureAtlas) Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[15:23:45] [Render thread/DEBUG] (com.mojang.blaze3d.vertex.BufferBuilder) Needed to grow BufferBuilder buffer: Old size 1536 bytes, new size 2098688 bytes.

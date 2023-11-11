@@ -7,9 +7,6 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.ServerAdvancementManager;
 import net.minecraft.server.packs.resources.ResourceManager;
 import net.minecraft.util.profiling.ProfilerFiller;
-import net.minecraft.world.level.storage.loot.LootDataManager;
-import org.slf4j.Logger;
-import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.injection.At;
@@ -20,10 +17,6 @@ import java.util.Map;
 
 @Mixin(ServerAdvancementManager.class)
 public class ServerAdvancementManagerMixin {
-    @Shadow @Final private LootDataManager lootData;
-
-    @Shadow @Final private static Logger LOGGER;
-
     @Shadow private AdvancementList advancements;
 
     @Inject(method = "apply(Ljava/util/Map;Lnet/minecraft/server/packs/resources/ResourceManager;Lnet/minecraft/util/profiling/ProfilerFiller;)V", at = @At("HEAD"), cancellable = true)

@@ -7,6 +7,9 @@
     "ServerAdvancementManagerMixin"
   ],
   "client": [
+    "MinecraftMixin",
+    "OptionsMixin",
+    "PauseScreenMixin"
   ],
   "injectors": {
     "defaultRequire": 1

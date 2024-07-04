@@ -17,7 +17,6 @@
     "nomoreadvancement.mixins.json"
   ],
   "depends": {
-    "minecraft": ">=1.20.4"
-  },
-  "accessWidener": "nomoreadvancement.accesswidener"
+    "minecraft": ">=1.21"
+  }
 }

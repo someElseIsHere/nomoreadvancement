@@ -3,12 +3,9 @@ dependencies {
 }
 
 architectury {
-    common("fabric", "forge")
+    common("fabric", "neoforge")
 }
-loom {
-    accessWidenerPath = file("src/main/resources/nomoreadvancement.accesswidener")
 
-}
 publishing {
     publications {
         mavenCommon(MavenPublication) {

@@ -1,6 +1,6 @@
 package org.theplaceholder.nomoreadvancement;
 
-import net.minecraftforge.fml.common.Mod;
+import net.neoforged.fml.common.Mod;
 
 @Mod("nomoreadvancement")
 public class NoMoreAdvancement {

@@ -2,9 +2,15 @@ plugins {
     id 'com.github.johnrengelman.shadow'
 }
 
+loom {
+    forge {
+        mixinConfig "anm.mixins.json"
+    }
+}
+
 architectury {
     platformSetupLoomIde()
-    fabric()
+    forge()
 }
 
 configurations {
@@ -14,7 +20,7 @@ configurations {
     }
     compileClasspath.extendsFrom common
     runtimeClasspath.extendsFrom common
-    developmentFabric.extendsFrom common
+    developmentForge.extendsFrom common
 
     shadowBundle {
         canBeResolved = true
@@ -23,16 +29,16 @@ configurations {
 }
 
 dependencies {
-    modImplementation "net.fabricmc:fabric-loader:$rootProject.fabric_loader_version"
+    forge "net.minecraftforge:forge:$rootProject.forge_version"
 
     common(project(path: ':common', configuration: 'namedElements')) { transitive false }
-    shadowBundle project(path: ':common', configuration: 'transformProductionFabric')
+    shadowBundle project(path: ':common', configuration: 'transformProductionForge')
 }
 
 processResources {
     inputs.property 'version', project.version
 
-    filesMatching('fabric.mod.json') {
+    filesMatching('META-INF/mods.toml') {
         expand version: project.version
     }
 }

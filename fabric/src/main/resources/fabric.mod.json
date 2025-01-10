@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
-  "id": "nomoreadvancement",
+  "id": "anm",
   "version": "${version}",
 
-  "name": "nomoreadvancement",
+  "name": "anm",
   "description": "",
   "authors": ["thePlaceholder"],
   "contact": {},
 
   "license": "GNU GPL 3.0",
-  "icon": "icon.png",
+  "icon": "assets/anm/icon.png",
 
   "environment": "*",
   "entrypoints": {},
   "mixins": [
-    "nomoreadvancement.mixins.json"
+    "anm.mixins.json"
   ],
   "depends": {
-    "minecraft": ">=1.21"
+    "minecraft": ">=1.20.1"
   }
 }

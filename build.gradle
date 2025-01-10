@@ -66,10 +66,11 @@ subprojects {
         setVersionType "release"
         setDisplayName "[$rootProject.minecraft_version - ${project.name.capitalize()}] Advancement No More - $rootProject.mod_version"
         setGameVersions rootProject.minecraft_version
+        setVersion rootProject.mod_version
         setLoaders([project.name])
         setCurseEnvironment "both"
         setArtifact remapJar
         setJavaVersions([java.targetCompatibility])
-        setChangelog "Fixed the Mod not having the Mod"
+        setChangelog rootProject.changelog
     }
 }
